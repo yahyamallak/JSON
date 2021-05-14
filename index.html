@@ -7,6 +7,8 @@
     <title>JSON</title>
 </head>
 <body>
+
+    <div id="founder"></div>
     
     <script>
         let companies = `[
@@ -23,6 +25,8 @@
                 "rating": 4.8
             }
         ]`
+
+        document.getElementById('founder').innerHTML = "Qiossa's Founder: "+ JSON.parse(companies)[0].ceo;
 
         console.log(JSON.parse(companies));
         console.log("Qiossa's Founder: "+ JSON.parse(companies)[0].ceo);
