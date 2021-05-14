@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Qiossa",
+        "numberOfEmployees": 5,
+        "ceo": "Yahya",
+        "rating": 4.7
+    },
+    {
+        "name": "Inatlantis",
+        "numberOfEmployees": 5,
+        "ceo": "Mouhcine",
+        "rating": 4.8
+    }
+]

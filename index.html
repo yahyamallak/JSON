@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    
+    <script>
+        let companies = `[
+            {
+                "name": "Qiossa",
+                "numberOfEmployees": 5,
+                "ceo": "Yahya",
+                "rating": 4.7
+            },
+            {
+                "name": "Inatlantis",
+                "numberOfEmployees": 5,
+                "ceo": "Mouhcine",
+                "rating": 4.8
+            }
+        ]`
+
+        console.log(JSON.parse(companies));
+        console.log("Qiossa's Founder: "+ JSON.parse(companies)[0].ceo);
+    </script>
+</body>
+</html>
