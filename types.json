@@ -1,0 +1,22 @@
+{
+    "username": "Elzero",
+    "country": "Egypt",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ],
+    "adresses": {
+        "Egypt": "Hadayaek",
+        "KSA": "Malaz",
+        "USA": "California",
+        "Germany": [
+            "one",
+            "two",
+            "three"
+        ]
+    },
+    "Age": 36,
+    "working": false,
+    "identity": null
+}
